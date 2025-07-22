@@ -9,7 +9,7 @@ function Favorites()
     if(fav){
         return(
             <div className="fav">
-                <h2>Your Favorites</h2>
+                <h2>Your Watchlist</h2>
            <div className="movie-grid">
          {fav.map((movie) => (
              <MovieCard movie={movie} key={movie.id} />))}
