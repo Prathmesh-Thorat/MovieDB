@@ -1,6 +1,6 @@
 import "../Css/Favorites.css"
 import { usemoviecontext } from "../Context/moviecontext"
-import MovieCard from "../Components/MovieCard"
+import MovieCard from "../Components/Moviecard"
 
 function Favorites()
 {
@@ -19,8 +19,8 @@ function Favorites()
     }
 
     return <div className="favorites-empty">
-        <h2>NO fav yet</h2>
-        <p>add favorites</p>
+        <h2>Watchlist is Emptyt</h2>
+        <p>Like Movies To Add To Watchlist</p>
     </div>
 }
 
